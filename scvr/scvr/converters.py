@@ -8,7 +8,7 @@ import matplotlib as mpl
 from scipy.sparse import isspmatrix
 from pandas.api.types import is_string_dtype,is_numeric_dtype
 
-from . import palettes
+#from . import palettes
 
 def get_colors(adata,ann):
     df_cell_colors = pd.DataFrame(index=adata.obs.index)
